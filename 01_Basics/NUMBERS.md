@@ -87,3 +87,32 @@ Type "help", "copyright", "credits" or "license" for more information.
 ['option2', 'option3', 'option1']
 ```
 ###
+
+### SETS
+
+```
+>>> setone = {1, 2, 3, 4}
+>>> setone & {3, 5}
+{3}
+>>> setone | {3, 5}
+{1, 2, 3, 4, 5}
+>>> setone - {1,2,3,4}
+set()
+>>> type(())
+<class 'tuple'>
+>>> type({})
+<class 'dict'>
+```
+
+### Booleans
+```
+>>> type(True)
+<class 'bool'>
+>>> True == 1
+True
+>>> True is 1
+<stdin>:1: SyntaxWarning: "is" with a literal. Did you mean "=="?
+False
+>>> True + 4
+5
+```
