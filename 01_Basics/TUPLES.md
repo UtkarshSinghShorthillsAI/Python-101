@@ -37,6 +37,15 @@ I have Herbal tea
 'Masala'
 >>> gngr
 'Ginger'
+
+
+
+>>> x = ('banana', 'apple', 'mango')
+>>> b, *O = x
+>>> b
+'banana'
+>>> O
+['apple', 'mango']
 ```
 
 ### Updating Tuple
