@@ -38,3 +38,17 @@ I have Herbal tea
 >>> gngr
 'Ginger'
 ```
+
+### Updating Tuple
+```
+>>> x = ('banana', 'apple', 'mango')
+>>> y = list(x)
+>>> y
+['banana', 'apple', 'mango']
+>>> y[2] = 'grape'
+>>> y
+['banana', 'apple', 'grape']
+>>> x = tuple(y)
+>>> x
+('banana', 'apple', 'grape')
+```
