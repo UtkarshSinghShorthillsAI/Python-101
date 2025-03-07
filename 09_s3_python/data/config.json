@@ -1,0 +1,8 @@
+{
+    "username": "test_user",
+    "api_key": "12345-abcde",
+    "settings": {
+        "theme": "dark",
+        "notifications": true
+    }
+}
